@@ -1,0 +1,5 @@
+f=open("File.txt","w+")
+f.write("hello...!!!")
+f.seek(0,0)
+print(f.read())
+f.close()

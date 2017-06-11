@@ -1,0 +1,5 @@
+file=open("file1.txt", "w+")
+file.write("BByeee..!!!")
+file.seek(0,0)
+print(file.readlines())
+file.close()

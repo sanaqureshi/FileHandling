@@ -1,3 +1,4 @@
+#4. Write a Python program to read last n lines of a file and display the same.
 import sys  
 import os  
 def readFile(file2,lines):  
